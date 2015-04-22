@@ -1,0 +1,5 @@
+tmr.alarm(0, 1500, 0, function() 
+  dofile('config.lua')
+  dofile('logger.lua')
+  logger_main()
+end)
